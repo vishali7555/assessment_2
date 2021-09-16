@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Application form</h1>
+      <form action="./end.html">
+          <label for="Name">Name</label>
+          <input required type="text" name=Name id="Name">
+          <br><br>
+          <label for="Email">Email id</label>
+          <input type="email" name=Email id="Email">
+          <br><br>
+          <label for="Password">Password</label>
+          <input required type="password" name=Password id="Password">
+          <br>
+          <h3>Language</h3>
+               
+                    <input type="radio" name=language>html  <br>
+                    <input type="radio" name=language>React  <br>
+                    <input type="radio" name=language>CSS    <br>
+           <h3>Course</h3>
+                    <input type="checkbox" name=course>MERN  <br>  
+                    <input type="checkbox" name=course>MEAN  <br>  
+                    <input type="checkbox" name=course>MEVN  <br>  
+            <H3>Field</H3>
+                    <select name="Field" id="">
+                        <option value="fe">Front End</option>
+                        <option value="be">Back End</option>
+                        <option value="fs">Full stack</option>
+                    </select>    
+            <h3>Please enter what do you expect from course</h3>        
+            <textarea name="" id="" cols="30" rows="10"></textarea>         
+            <br><br>
+            <label for="Mobile">Mobile</label>
+            <input required type="number">
+            <br><br>
+            <input type="submit">
+      </form>
+
+      <h3>Please find the people who have already registered</h3>
+         <a href='table.html'>Click here</a>
+</body>
+</html>
